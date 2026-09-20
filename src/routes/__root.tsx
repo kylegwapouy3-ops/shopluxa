@@ -49,6 +49,18 @@ export const Route = createRootRoute({
         href: 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap',
       },
     ],
+    scripts: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-ELLV2QXWEN',
+        async: true,
+      },
+      {
+        children: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-ELLV2QXWEN');`,
+      },
+    ],
   }),
   shellComponent: RootDocument,
 })
