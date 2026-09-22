@@ -47,10 +47,10 @@ export function Footer() {
               <MapPin className="w-4 h-4 text-gold" /> Ormoc City, Leyte, Philippines
             </li>
             <li className="flex items-center gap-2">
-              <Phone className="w-4 h-4 text-gold" /> +63 900 000 0000
+              <Phone className="w-4 h-4 text-gold" /> +63 09563144786
             </li>
             <li className="flex items-center gap-2">
-              <Mail className="w-4 h-4 text-gold" /> hello@luxacosmetics.ph
+              <Mail className="w-4 h-4 text-gold" /> luxacosmetics082@gmail.com
             </li>
           </ul>
         </div>
